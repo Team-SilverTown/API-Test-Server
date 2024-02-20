@@ -15,12 +15,8 @@ class TestController {
 
     @GetMapping("/health")
     fun healthCheck(): ResponseEntity<HealthDto> {
-        return ResponseEntity.ok(HealthDto(OffsetDateTime.now()))
-    }
-
-    @GetMapping("/data")
-    fun getData(): ResponseEntity<DataDto> {
-        return ResponseEntity.ok(DataDto("testData"))
+        return ResponseEntity
+            .ok(HealthDto(OffsetDateTime.now()))
     }
 
     @PostMapping("/data")
