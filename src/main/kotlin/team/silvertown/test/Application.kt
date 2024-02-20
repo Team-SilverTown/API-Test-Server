@@ -1,4 +1,4 @@
-package team.`silver-town`.test
+package team.silvertown.test
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

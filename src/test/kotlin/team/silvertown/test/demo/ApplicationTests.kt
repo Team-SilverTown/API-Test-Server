@@ -1,4 +1,4 @@
-package team.`silver-town`.test.demo
+package team.silvertown.test.demo
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

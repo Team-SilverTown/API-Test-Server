@@ -1,4 +1,4 @@
-package team.`silver-town`.test.dto
+package team.silvertown.test.dto
 
 import java.time.OffsetDateTime
 
