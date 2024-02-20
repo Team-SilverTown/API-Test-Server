@@ -47,5 +47,5 @@ tasks.withType<Test> {
 tasks.bootJar {
     enabled = true
     archiveFileName = "test-api-server.jar"
-    mainClass.set("team.silver-town.test.ApplicationKt")
+    mainClass.set("team.silvertown.test.ApplicationKt")
 }
